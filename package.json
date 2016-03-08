@@ -26,6 +26,7 @@
     "url": "https://github.com/ansteh/datamuse/issues"
   },
   "dependencies": {
-
+    "got": "^6.2.0",
+    "query-string": "^3.0.1"
   }
 }

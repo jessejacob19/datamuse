@@ -11,6 +11,12 @@ npm install datamuse
 ```js
 const datamuse = require('datamuse');
 
+datamuse.words({
+  ml: 'ringing in the ears'
+})
+.then(console.log)
+.catch(console.log);
+
 ```
 
 ## License
