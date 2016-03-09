@@ -7,7 +7,7 @@ npm install datamuse
 ```
 
 The Datamuse API is a word-finding query engine for developers.
-The official website illustrates the kinds of queries you can make: [Datamuse API](http://www.datamuse.com/api/)
+The official website illustrates the kinds of queries you can make: [Datamuse API](http://www.datamuse.com/api/).
 This module helps you to make queries and supports promises.
 
 ## Usage
