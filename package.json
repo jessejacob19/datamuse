@@ -1,19 +1,17 @@
 {
   "name": "datamuse",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "node module for the Datamuse API v1",
   "main": "index.js",
   "scripts": {
     "test": "node test/test"
   },
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ansteh/datamuse.git"
   },
   "keywords": [
+
     "datamuse api",
     "datamuse",
     "wrapper",
