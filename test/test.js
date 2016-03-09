@@ -15,8 +15,30 @@ const datamuse = require('../index.js');
   ml: 'ringing in the ears'
 }));*/
 
-datamuse.words({
-  ml: 'ringing in the ears'
-})
-.then(console.log)
-.catch(console.log);
+//words with a meaning similar to ringing in the ears
+const assertify = (msg, testPromise) => {
+  testPromise()
+  .then((json) => {
+    console.log(`${msg}: successful!`);
+  })
+  .catch(() => {
+    console.error(`${msg}: failed!`);
+    process.exit(1);
+  });
+};
+
+assertify('request: words with a meaning similar to "ringing in the ears"', () => {
+  return datamuse.request('words?ml=ringing in the ears');
+});
+
+assertify('words: words with a meaning similar to "ringing in the ears"', () => {
+  return datamuse.words({
+    ml: 'ringing in the ears'
+  });
+});
+
+assertify('sug: suggestions for the user if they have typed in "rawand" so far', () => {
+  return datamuse.sug({
+    s: 'rawand'
+  });
+});
