@@ -1,10 +1,13 @@
 {
   "name": "datamuse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "node module for the Datamuse API v1",
   "main": "index.js",
   "scripts": {
     "test": "node test/test"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
