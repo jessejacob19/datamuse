@@ -1,6 +1,6 @@
 {
   "name": "datamuse",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "node module for the Datamuse API v1",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,6 @@
     "url": "https://github.com/ansteh/datamuse.git"
   },
   "keywords": [
-
     "datamuse api",
     "datamuse",
     "wrapper",
@@ -24,6 +23,6 @@
     "url": "https://github.com/ansteh/datamuse/issues"
   },
   "dependencies": {
-    "got": "^6.2.0"
+    "got": "^6.3.0"
   }
 }
