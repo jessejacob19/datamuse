@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/ansteh/datamuse.svg?branch=master)](https://travis-ci.org/ansteh/datamuse)
+
 ## Install
 
 Using npm:
