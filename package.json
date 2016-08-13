@@ -1,6 +1,6 @@
 {
   "name": "datamuse",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "node module for the Datamuse API v1",
   "main": "index.js",
   "scripts": {
