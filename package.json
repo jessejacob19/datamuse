@@ -26,6 +26,6 @@
     "url": "https://github.com/ansteh/datamuse/issues"
   },
   "dependencies": {
-    "got": "^6.3.0"
+    "got": "github:jessejacob19/got#master"
   }
 }
